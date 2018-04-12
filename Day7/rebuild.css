@@ -1,0 +1,61 @@
+/* Reset */
+html, body, div{
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+/* Main is a flex container, div is it's flex item(s) */
+main{
+    height: 100vh;
+    border: 2px dashed red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+/* Div is a flex item, but also a flex container for the text inside of it */
+div{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    flex-grow: 1;
+    flex-basis: 100px;  /* The width of the div */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+                               
+#s1{
+    flex-shrink: 2;
+    flex-basis: 100%;
+    background-color: cyan;
+}
+#s2{
+    flex-shrink: 1;
+    flex-basis: 70%;
+    background-color: green;
+}
+#s3{
+    flex-shrink: 2;
+    flex-basis: 30%;
+    background-color: gold;
+}
+#s4{
+    flex-shrink: 1;
+    flex-basis: 40%;
+    background-color: burlywood;
+}
+#s5{
+    flex-shrink: 2;
+    flex-basis: 60%;
+    background-color: pink;
+}
