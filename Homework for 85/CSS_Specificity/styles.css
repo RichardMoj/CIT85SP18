@@ -1,0 +1,25 @@
+h1, p, div{
+	width: 100vh;
+	height: 150px;
+	border: 2px dashed red;
+}
+
+/* Specificity - 10 */
+ .dog{
+	color: gold;
+}
+ 
+/* Specificity - 1 */
+h1{
+	color: red;	
+}
+
+/* Specificity - 1 */
+p{
+	color: violet;
+}
+
+/* Specificty - 1 */
+div{
+	color: cyan;
+}
