@@ -1,0 +1,136 @@
+<!-- hello world -->
+
+<!doctype html>
+	<html lang="en">
+		<head>
+			<meta charset="utf-8">
+			<title>Box Model</title>
+			<style type="text/css">
+				p {
+					background-color: cyan;
+				}
+				div {
+					border: black solid 1px;
+					margin: 5px;
+					width: 110px;
+					height: 50px;
+				}
+				span {
+					border: red solid 1px;
+					margin: 5px;
+					width: 110px;
+					height: 50px;
+				}
+			</style>
+		</head>
+		<body>
+			<h1> This web page will display the difference between inline and block display using divs and spans</h1>
+			<br>
+
+<!-- ******************************* NOW SHOWING THE DIVS **************************** -->
+
+			<!-- REGULAR DIVS BEGIN -->
+			<div>
+				regular div
+			</div>
+			<div>
+				regular div
+			</div>
+			<div>
+				regular div
+			</div>
+			<!-- REGULAR DIVS END -->
+
+			<!-- INLINE DIVS BEGIN -->
+			<hr>
+			<div style="display: inline;">
+				inline div
+			</div>
+			<div style="display: inline;">
+				inline div
+			</div>
+			<div style="display: inline;">
+				inline div
+			</div>
+			<!-- INLINE DIVS END -->
+
+			<!-- BLOCK DIVS BEGIN -->
+			<hr>
+			<div style="display: block;">
+				block div
+			</div>
+			<div style="display: block;">
+				block div
+			</div>
+			<div style="display: block;">
+				block div
+			</div>
+			<!-- BLOCK DIVS END -->
+
+			<!-- INLINE-BLOCK DIVS BEGIN -->
+			<hr>
+			<div style="display: inline-block;">
+				inline-block
+			</div>
+			<div style="display: inline-block;">
+				inline-block
+			</div>
+			<div style="display: inline-block;">
+				inline-block
+			</div>
+			<!-- INLINE-BLOCK DIVS END -->
+
+<!-- ***************************** NOW SHOWING THE SPANS **************************** -->
+
+			<!-- SAME FORMAT AS THE DIVS -->
+			<hr>
+			<span>
+				This is a regular span
+			</span>
+			<span>
+				This is a regular span
+			</span>
+			<span>
+				This is a regular span
+			</span>
+
+			<br>
+			<br>
+			<span style="display: inline;">
+				span - inline
+			</span>
+			<span style="display: inline;">
+				span - inline
+			</span>
+			<span style="display: inline;">
+				span - inline
+			</span>
+
+			<br>
+			<br>
+			<span style="display: block;">
+				span - block
+			</span>
+			<span style="display: block;">
+				span - block
+			</span>
+			<span style="display: block;">
+				span - block
+			</span>
+
+			<br>
+			<br>
+			<span style="display: inline-block;">
+				span - inline-block
+			</span>
+			<span style="display: inline-block;">
+				span - inline-block
+			</span>
+			<span style="display: inline-block;">
+				span - inline-block
+			</span>
+
+
+
+		</body>
+	</html>
