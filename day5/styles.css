@@ -1,0 +1,16 @@
+/*Font shorthand - font-style variant weight size/line height family*/
+h1{
+	font: normal bolder 24px/1 'Ubuntu';
+	text-align: center;
+}
+
+
+p{
+	font: italic lighter 10px/2 sans-serif;
+}
+
+
+
+
+
+

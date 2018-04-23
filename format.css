@@ -1,0 +1,20 @@
+div{
+	font-size: 32px;
+}
+
+/*em means parent's font-size * em value */
+/*p{
+	font-size: 3em;
+	font-weight: lighter;
+}*/
+
+/* font is shortcut for font-style, variant, weight, size, height, family in that order */
+
+/*p{
+	font: italic small-caps bold 5rem/1 sans-serif;
+
+}*/
+
+p{
+	font: oblique bolder 75%/3 'Ubuntu', sans-serif;
+}

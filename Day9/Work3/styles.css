@@ -1,0 +1,78 @@
+html, body, header, main, aside, footer{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+	font-weight: bold;
+}
+
+body{
+	height: 200px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+header{
+	background-color: red;
+	flex-basis: 100%;
+
+}
+
+main{
+	background-color: dodgerblue;
+	flex-basis: 100%;
+}
+
+
+#aside1{
+	background-color: gold;
+	flex-basis: 100%;
+
+}
+
+
+#aside2{
+	background-color: pink;
+	flex-basis: 100%;
+
+}
+
+footer{
+	background-color: limegreen;
+	flex-basis: 100%;
+
+}
+
+/* @media (max-width: 600px){
+
+#aside1{
+	flex-basis: 50%;
+}
+
+#aside2{
+	flex-basis: 50%;
+}
+
+}
+
+@media (max-width: 1200px){
+main{
+	order: 2;
+	flex-basis: 70%;
+}
+#aside1{
+	order: 1;
+	flex-basis: 15%;
+}
+#aside2{
+	order: 3;
+	flex-basis: 15%;
+}
+footer{
+	order: 4;
+}
+
+} */
