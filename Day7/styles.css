@@ -1,0 +1,44 @@
+html, body, div{
+    font: inherit;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+div{
+    height: 100px;
+    border: 2px solid black;
+    background-color: cyan;
+    margin: 10px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-basis: auto;
+
+
+}
+
+#foo{
+    flex-grow: 1;
+    flex-shrink: 2;
+}
+
+#bar{
+    flex-grow: 2;
+    flex-shrink: 3;
+}

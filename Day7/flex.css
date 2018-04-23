@@ -1,0 +1,28 @@
+html, body, div{
+    font: inherit;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+
+body{
+    display: flex;
+}
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 400px;
+    flex-grow: 1;
+}
+
+.flex1{
+    flex-shrink: 1;
+}
+
+.flex2{
+    flex-shrink: 2;
+}

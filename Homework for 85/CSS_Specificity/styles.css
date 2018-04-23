@@ -1,0 +1,44 @@
+h1, p, div{
+	width: 100vh;
+	height: 150px;
+	border: 2px dashed red;
+}
+
+
+
+
+
+/* Specificity - 100 */
+#foo{
+	color: red;
+}
+
+
+/* Specificity - 10 */
+ 
+ .dog{
+	color: gold;
+}
+
+.bees{
+	color: whitesmoke;
+}
+
+.wasps{
+	color: pink;
+}
+
+ 
+/* Specificity - 1 */
+
+h1{
+	color: red;	
+}
+
+p{
+	color: violet;
+}
+
+div{
+	color: cyan;
+}

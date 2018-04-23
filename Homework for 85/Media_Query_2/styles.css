@@ -1,0 +1,86 @@
+html, body, div{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	color: inherit;
+	font: inherit;
+	box-sizing: border-box;
+}
+
+main{
+	height: 100vh;
+	border: 2px dashed red;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	align-content: flex-start;
+}
+
+div{
+	border: 1px solid black;
+	width: 100px;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 24px;
+	font-weight: bolder;
+
+
+}
+
+
+#one{
+	flex-basis: 100%;
+	background-color: tomato;
+}
+
+#two{
+	flex-basis: 60%;
+	background-color: cyan;
+
+}
+
+#three{
+	flex-basis: 40%;
+	background: forestgreen;
+}
+
+#four{
+	flex-basis: 50%;
+	background-color: gold;
+}
+
+#five{
+	flex-basis: 50%;
+	background-color: purple;
+}
+
+
+@media (max-width: 1200px){
+	#one{
+		flex-basis: 100%;
+		background-color: tomato;
+	}
+
+	#two{
+		flex-basis: 100%;
+		background-color: cyan;
+
+	}
+
+	#three{
+		flex-basis: 100%;
+		background: forestgreen;
+	}
+
+	#four{
+		flex-basis: 100%;
+		background-color: gold;
+	}
+
+	#five{
+		flex-basis: 100%;
+		background-color: purple;
+	}
+}
