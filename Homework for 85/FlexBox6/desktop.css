@@ -1,0 +1,16 @@
+@media (min-width: 600px){
+	ul{
+		list-style: none;
+		background-color: dodgerblue;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+	}
+	li{
+		margin: 5px;
+		padding: 5px;
+		font-size: 18px;
+		color: white;
+	}
+}

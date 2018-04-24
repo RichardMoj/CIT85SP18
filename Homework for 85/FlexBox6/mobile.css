@@ -1,0 +1,31 @@
+ul{
+	list-style: none;
+	background-color: dodgerblue;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	flex-wrap: wrap;
+}
+li{
+	height: 50px;
+	font-size: 18px;
+	color: white;
+	
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+ a{
+ 	border-top: 1px solid skyblue;
+	border-bottom: 1px solid gray; 
+
+}
+
+ a:last-child{
+	border-bottom: none;
+	border-top: none;
+} 
+
+

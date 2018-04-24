@@ -1,0 +1,15 @@
+html, body, nav, ul, li, a{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: inherit;
+	font: inherit;
+}
+li:hover{
+	background-color: cyan;
+}
+
+a{
+	text-decoration: none;
+}
