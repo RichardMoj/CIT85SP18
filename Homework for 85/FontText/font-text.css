@@ -1,0 +1,47 @@
+h1{
+	text-shadow: 1px 2px 2px cyan;
+}
+
+#generic1{
+	font-family: serif;
+}
+
+#generic2{
+	font-family: sans-serif;
+}
+
+#avoid{
+	text-decoration: line-through;
+}
+
+#identonce{
+	text-indent: 18px;
+	letter-spacing: 3px;
+}
+
+#modify{
+	text-transform: uppercase;
+	font-style: italic;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+#Gfont1{
+	font-family: 'Gaegu';
+	font-weight: 300;
+}
+#Gfont2{
+	font-family: 'Gaegu', cursive;
+	font-weight: 400;
+}
+#Gfont3{
+	font-family: 'Gaegu', cursive;
+	font-weight: 700;
+}

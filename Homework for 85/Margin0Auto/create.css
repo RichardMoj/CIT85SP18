@@ -1,0 +1,37 @@
+*{
+	border: 3px dashed blue;
+	width: auto;
+
+}
+
+body{
+	margin: 300 auto;
+	width: 75%;
+	height: 40%;
+	padding: 75px;
+}
+
+div{
+	display: block;
+	border: 3px solid black;
+	border-radius: 10px;
+ 	margin: 25px auto;
+ 	width: 10%;
+ 	height: 15%;
+}
+
+#div1{
+	background-color: red;
+
+}
+#div2{
+	background-color: blue;
+
+}
+#div3{
+	background-color: yellow;
+}
+#div4{
+	background-color: green;
+
+}

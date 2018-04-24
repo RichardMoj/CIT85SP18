@@ -1,0 +1,49 @@
+*{
+	margin: 0 auto;
+	padding: 0;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+	background-color: blue;
+
+}
+
+#id1{
+	color: blue;
+	background-color: green; 
+	padding: 5px;
+	font-size: 32px;
+	font-weight: bolder;
+
+}
+
+#id2{
+	color: red;
+	background-color: green;
+	padding: 5px;
+	font-size: 32px;
+	font-weight: bolder;
+}
+
+p{
+	background-color: green;
+	padding: 5px;
+	font-size: 16px;
+}
+
+div{
+	background-color: green;
+	width: 70%;
+	height:75%;
+	border: 5px solid black;
+}
+#div2{
+	border: 10px groove yellow;
+	border-radius: 50%;
+	width: 30%;
+	height: 30%;
+	background-image: url("background.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
