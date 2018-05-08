@@ -1,0 +1,27 @@
+@media (min-width: 1200px){
+	header{
+		order: 1;
+	}
+	#aside1{
+		order: 2;
+	}
+	section{
+		order: 3;
+	}
+	#aside2{
+		order: 4;
+	}
+ 	footer{
+		order: 5;
+	}	 
+
+	#aside1, #aside2{
+		align-items: flex-start;
+		flex-basis: 15%;
+		height: 40%;
+	}
+
+	section{
+		flex-basis: 70%;
+	}
+}

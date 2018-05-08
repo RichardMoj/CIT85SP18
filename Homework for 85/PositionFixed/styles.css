@@ -1,0 +1,22 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+}
+
+div{
+	height: 50px;
+	width: auto;
+	border: 2px solid black;
+	background-color: rgba(0, 100, 100, 0.2);
+	
+
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	
+}

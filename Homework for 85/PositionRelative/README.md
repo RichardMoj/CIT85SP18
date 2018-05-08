@@ -1,0 +1,1 @@
+Position RELATIVE means RELATIVE to itself. Set three divs on a page. Make them squares. Use "position relative" to move the second div away from where it should have been.

@@ -1,0 +1,1 @@
+Fix a div as a footer on a page to always always always be at the bottom of the page, and so that everything else on the page is scrolling beneath it. Set the div's background color to a RGBA transparency.

@@ -1,0 +1,1 @@
+When "Position Absolute" is set on an element, that element will be positioned off of THE NEXT element up the DOM which has "POSITION" set on it (or HTML if no other elements up the DOM have "position). Create an example using POSITION ABSOLUTE.

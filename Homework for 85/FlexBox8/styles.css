@@ -16,10 +16,8 @@ body{
 	align-content: flex-start;
 }
 
-header{
-	height: 10%;
+header, section, #aside1, #aside2, footer{
 	flex-basis: 100%;
-	background: tomato;
 	font-weight: bold;
 
 	display: flex;
@@ -27,46 +25,28 @@ header{
 	justify-content: center;
 }
 
-section{
-	height: 50%;
-	flex-basis: 100%;
-	background: cyan;
-	font-weight: bold;
+header{
+	height: 10%;
+	background: tomato;
+}
 
-	display: flex;
-	align-items: center;
-	justify-content: center;
+section{
+	height: 40%;
+	background: cyan;
+	text-transform: none;
 }
 
 #aside1{
 	height: 10%;
-	flex-basis: 100%;
 	background: gold;
-	font-weight: bold;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 #aside2{
 	height: 10%;
-	flex-basis: 100%;
 	background: pink;
-	font-weight: bold;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
 
 footer{
 	height: 10%;
-	flex-basis: 100%;
 	background: lightgreen;
-	font-weight: bold;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
 }
