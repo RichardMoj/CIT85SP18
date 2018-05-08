@@ -1,0 +1,55 @@
+* {
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+}
+
+
+#atf{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url("./resources/paradise.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: white;
+	font-size: 8rem;
+}
+
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 50px;
+	border-bottom: 2px solid gray;
+	background-color: skyblue;
+	
+	
+	padding: 0 25px;
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+
+}
+
+header > div{
+	border: 2px solid red;
+	height: 100%;
+	padding: 0 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+header > div:hover{
+	background-color: white;
+}
