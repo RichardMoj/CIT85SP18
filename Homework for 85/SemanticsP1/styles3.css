@@ -10,7 +10,7 @@
 
 header, section, article, aside, footer, nav{
 	margin: 3px;
-	border: 2px dashed black;
+	border: 2px solid black;
 	color: white;
 	font-size: 24px;
 }
@@ -29,21 +29,25 @@ nav{
 }
 
 section{
-	height: 300px;
-	width: auto;
+	height: 40%;
+	width: 75%;
 	background-color: gold;
+	display: inline-block;
+	vertical-align: top;
 }
 
 article{
-	height: 100px;
+	height: 40%;
 	width: auto;
 	background-color: lime;
 }
 
 aside{
-	height: 315px;
-	width: 300px;
+	height: 40%;
+	width: 23%;
 	background-color: blue;
+	display: inline-block;
+	vertical-align: top;
 }
 
 footer{

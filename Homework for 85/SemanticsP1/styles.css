@@ -9,32 +9,43 @@
 
 
 header, section, article, aside, footer{
-	margin: 3px;
-	border: 2px dashed black;
+	margin: 3 0;
+	border: 2px solid black;
+	color: white;
+	font-size: 32px;
 }
 
 header{
 	height: 100px;
 	width: auto;
+	background-color: cyan;
 
 }
 
 section{
-	height: 200px;
-	width: auto;
+	height: 315px;
+	width: 75%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: gold;
 }
 
 article{
 	height: 100px;
 	width: auto;
+	background-color: lime;
 }
 
 aside{
 	height: 315px;
-	width: 300px;
+	width: 24%;
+	display: inline-block;
+	vertical-align: top;
+	background-color: purple;
 }
 
 footer{
 	height: 100px;
 	width: auto;
+	background-color: cyan;
 }

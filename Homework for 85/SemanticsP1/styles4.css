@@ -9,10 +9,10 @@
 
 
 header, section, article, aside, footer, nav{
-	margin: 3px;
-	border: 2px dashed black;
+	margin: 3 0;
+	border: 2px solid black;
 	color: white;
-	font-size: 24px;
+	font-size: 32px;
 }
 
 body{
