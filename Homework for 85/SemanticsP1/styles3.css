@@ -8,33 +8,46 @@
 }
 
 
-header, section, article, aside, footer{
+header, section, article, aside, footer, nav{
 	margin: 3px;
 	border: 2px dashed black;
+	color: white;
+	font-size: 24px;
 }
 
 header{
 	height: 100px;
 	width: auto;
+	background-color: red;
 
 }
 
-section{
-	height: 200px;
+nav{
+	height: 100px;
 	width: auto;
+	background-color: orange;
+}
+
+section{
+	height: 300px;
+	width: auto;
+	background-color: gold;
 }
 
 article{
 	height: 100px;
 	width: auto;
+	background-color: lime;
 }
 
 aside{
 	height: 315px;
 	width: 300px;
+	background-color: blue;
 }
 
 footer{
 	height: 100px;
 	width: auto;
+	background-color: purple;
 }

@@ -1,0 +1,40 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 2px solid red;
+	box-sizing: border-box;
+	color: inherit;
+	font: inherit;
+}
+
+
+header, section, article, aside, footer{
+	margin: 3px;
+	border: 2px dashed black;
+}
+
+header{
+	height: 100px;
+	width: auto;
+
+}
+
+section{
+	height: 200px;
+	width: auto;
+}
+
+article{
+	height: 100px;
+	width: auto;
+}
+
+aside{
+	height: 315px;
+	width: 300px;
+}
+
+footer{
+	height: 100px;
+	width: auto;
+}
