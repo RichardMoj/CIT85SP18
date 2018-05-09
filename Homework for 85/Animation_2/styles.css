@@ -1,0 +1,46 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	font: inherit;
+	color: inherit;
+}
+
+div{
+	height: 150px;
+	width: 150px;
+	border: 5px groove black;
+	border-radius: 50%;
+	background-color: cyan;
+
+	position: fixed;
+	top: 0;
+	left: 0;
+
+	animation-name: foo;
+	animation-duration: 8s;
+	animation-timing-function: linear;
+	animation-delay: 1s;
+	animation-iteration-count: infinite;
+	animation-direction: normal;
+	animation-fill-mode: forwards;
+	animation-play-state: running;
+
+}
+
+@keyframes foo{
+	20% {top: 0;
+		 left: 95%;
+		 background-color: gold;}
+	40% {top: 90%;
+		 left: 95%;
+		 background-color: lime;}
+	60% {top: 90%;
+		 left: 0;
+		 background-color: violet;}
+	80% {top: 0;
+		 left: 0;
+		 background-color: tomato} 
+
+}
