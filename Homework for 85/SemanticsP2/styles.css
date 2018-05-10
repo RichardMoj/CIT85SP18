@@ -1,0 +1,82 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	color: inherit;
+}
+
+
+
+header, section, article, aside, footer, nav{
+	margin: 3 0;
+	border: 2px solid black;
+	color: black;
+	text-align: center;
+}
+
+img{
+	height: 50px;
+	width: 50px;
+	border: 2px solid black;
+	border-radius: 50%;
+}
+
+body{
+	width: 100%;
+	height: 100vh;
+}
+
+header{
+	height: 100px;
+	width: auto;
+	background-color: cyan;
+
+}
+
+nav{
+	height: 500px;
+	width: 10%;
+	background-color: gold;
+	display: inline-block;
+	vertical-align: top;
+}
+
+section{
+	height: 300px;
+	width: 90%;
+	background-color: gold;
+	font-size: 16px;
+	color: white;
+}
+
+article{
+	height: 500px;
+	width: 63%;
+	background-color: lime;
+	display: inline-block;
+	vertical-align: top;
+}
+
+aside{
+	height: 500px;
+	width: 25%;
+	background-color: orange;
+	display: inline-block;
+	vertical-align: top;
+}
+
+footer{
+	height: 100px;
+	width: auto;
+	background-color: cyan;
+}
+
+.articleSection{
+	height: 135px;
+	background-color: purple;
+}
+
+.asideSection{
+	height: 100px;
+	background-color: red;
+}
