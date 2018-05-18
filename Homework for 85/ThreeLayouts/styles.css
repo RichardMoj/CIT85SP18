@@ -1,0 +1,46 @@
+html, body, header, div, footer {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    color: inherit;
+}
+
+header{
+    background-color: gold;
+    height: 150px;
+    border: 8px solid blue;
+}
+
+div {
+    height: 200px;
+    border: 8px solid black;
+    display: inline-block;
+}
+
+
+
+footer{
+    background-color: purple;
+    height: 150px;
+    border: 8px solid red;   
+}
+
+
+#div1 {
+    width: 20%;
+    background-color: cyan;
+}
+
+#div2 {
+    width: 79.5%;
+    background-color: lime;
+}
+
+#main{
+    border: 8px solid green;
+    height: 215px;
+    width: 100%;
+    background-color: green;
+}
