@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: inherit;
+    font: inherit;
+}
+
+
+body{
+    height: 100vh;
+    /* display: flex;
+    justify-content: flex-start;
+    align-items: center; */
+}
+
+
+div{
+
+    position: fixed;
+    top: 150px;
+    left: -150px;
+
+    height: 150px;
+    width: 150px;
+    background-color: lime;
+    border: 5px solid black;
+    border-radius: 50%;
+
+    transition-property: all;
+    transition-delay: none;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+
+}
+
+
+input[type="checkbox"]:checked + div {
+    left: 100%;
+
+}
