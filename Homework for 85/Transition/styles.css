@@ -22,7 +22,6 @@ div{
 
 	transition-property: background-color;
 	transition-duration: 2s;
-	transition-delay: .5s;
 	transition-timing-function: ease-in;
 }
 
