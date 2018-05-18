@@ -1,7 +1,5 @@
 Assignments not completed, OR skipped:
 
-* Build a website
-
 ------------------------------------------------------------------------------------------
 * CSS Specificity *half done
 * FlexBox 5 - *done, but small issue with alignment

@@ -1,0 +1,54 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+	box-sizing: border-box;
+	color: inherit;
+	font-family: 'Skranji', cursive;
+}
+
+a{
+	color: blue;
+	font-size: 24px;
+}
+body{
+	height: 200vh;
+}
+
+footer{
+	text-align: center;
+}
+
+div{
+	margin: 0 auto;
+	height: 250px;
+	width: 250px;
+	border: 2px solid red;
+	box-shadow: 9px 9px 15px black;
+}
+
+
+p>a{
+	color: blue;
+	font-size: 48px;
+}
+
+.firstPage, h1{
+	padding: 10px;
+	font-size: 24px;
+
+}
+
+#firstHeader{
+ 	height: 100vh;
+ 	background-image: url("./resources/pretty.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+
+}
+
+
