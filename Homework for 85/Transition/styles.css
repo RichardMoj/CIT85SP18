@@ -21,7 +21,6 @@ div{
 	background-color: cyan;
 
 	transition-property: background-color;
-	transition-duration: .5s;
 	transition-timing-function: ease-in;
 }
 
