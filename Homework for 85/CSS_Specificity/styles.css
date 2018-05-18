@@ -1,34 +1,16 @@
 h1, p, div{
-	width: 100vh;
-	height: 150px;
-	border: 2px dashed red;
+	width: auto;
+	height: 50px;
+	border: 2px solid red;
+}
+
+body{
+	height: 100vh;
 }
 
 
 
 
-
-/* Specificity - 100 */
-#foo{
-	color: red;
-}
-
-
-/* Specificity - 10 */
- 
- .dog{
-	color: gold;
-}
-
-.bees{
-	color: whitesmoke;
-}
-
-.wasps{
-	color: pink;
-}
-
- 
 /* Specificity - 1 */
 
 h1{
@@ -43,3 +25,57 @@ div{
 	margin-top: 5px;
 	color: cyan;
 }
+
+
+
+
+/* Specificity - 2 */
+div p {
+	color: purple;
+}
+
+div h1{
+	color: #98FB98;
+}
+
+
+
+
+/* Specificity - 10 */
+ 
+.dog{
+	color: gold;
+}
+
+.bees{
+	color: orange;
+}
+
+.wasps{
+	color: pink;
+}
+
+
+
+
+/* Specificity - 11 */
+div .dog{
+	color: #997950;
+}
+
+
+
+
+/* Specificity - 100 */
+#foo{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
